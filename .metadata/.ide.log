@@ -1,0 +1,88 @@
+2024-07-14 00:01:55,082 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+2024-07-14 00:01:55,136 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen_NoTreeLock(Component.java:2113)
+2024-07-14 00:01:55,138 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen(Component.java:2087)
+2024-07-14 00:01:55,139 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JPopupMenu.show(JPopupMenu.java:960)
+2024-07-14 00:01:55,143 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.show(BasicComboPopup.java:235)
+2024-07-14 00:01:55,145 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.togglePopup(BasicComboPopup.java:1257)
+2024-07-14 00:01:55,148 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mousePressed(BasicComboPopup.java:936)
+2024-07-14 00:01:55,149 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2024-07-14 00:01:55,150 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-07-14 00:01:55,151 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-07-14 00:01:55,152 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-07-14 00:01:55,153 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-07-14 00:01:55,154 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-07-14 00:01:55,155 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-07-14 00:01:55,157 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.repostEvent(BasicTableUI.java:987)
+2024-07-14 00:01:55,159 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(BasicTableUI.java:1149)
+2024-07-14 00:01:55,161 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(BasicTableUI.java:1077)
+2024-07-14 00:01:55,163 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+2024-07-14 00:01:55,164 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2024-07-14 00:01:55,165 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2024-07-14 00:01:55,166 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2024-07-14 00:01:55,167 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2024-07-14 00:01:55,168 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-07-14 00:01:55,169 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-07-14 00:01:55,170 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-07-14 00:01:55,171 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-07-14 00:01:55,172 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-07-14 00:01:55,174 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-07-14 00:01:55,176 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-07-14 00:01:55,178 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2024-07-14 00:01:55,179 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-07-14 00:01:55,180 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-07-14 00:01:55,181 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-07-14 00:01:55,182 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-07-14 00:01:55,183 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-07-14 00:01:55,184 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-07-14 00:01:55,185 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-07-14 00:01:55,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-07-14 00:01:55,188 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-07-14 00:01:55,189 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-07-14 00:01:55,190 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-07-14 00:01:55,191 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-07-14 00:01:55,193 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-07-14 00:01:55,194 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-07-14 00:01:55,195 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-07-14 00:01:55,196 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-07-14 00:01:55,197 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-07-14 00:01:55,199 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-07-14 00:01:55,200 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-07-14 00:01:55,201 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-07-14 00:02:07,349 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x161,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-14 00:02:09,688 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-14 00:09:32,590 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 694500816 Bytes (1073741824)
+2024-07-14 00:09:34,513 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 706646528 Bytes (1073741824)
+2024-07-14 00:09:35,497 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 732996496 Bytes (1073741824)
+2024-07-14 00:09:35,991 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-14 00:09:35,991 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-07-14 00:09:35,992 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-07-14 00:09:35,992 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-14 00:09:35,992 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-14 00:09:35,992 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-07-14 00:09:35,997 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-07-14 00:09:36,003 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-07-14 00:09:36,003 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-07-14 00:09:36,248 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\MXTmpFiles\license.tmp_save
+2024-07-14 00:09:36,382 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\MXTmpFiles\license.tmp
+2024-07-14 00:09:36,422 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\MXTmpFiles\gpio.tmp_save
+2024-07-14 00:09:36,558 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\MXTmpFiles\gpio.tmp
+2024-07-14 00:09:36,662 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Src\stm32f1xx_it.c_save
+2024-07-14 00:09:36,857 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Src\stm32f1xx_it.c
+2024-07-14 00:09:36,863 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Inc\stm32f1xx_it.h_save
+2024-07-14 00:09:37,008 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Inc\stm32f1xx_it.h
+2024-07-14 00:09:37,089 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Src\stm32f1xx_hal_msp.c_save
+2024-07-14 00:09:37,414 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Src\stm32f1xx_hal_msp.c
+2024-07-14 00:09:37,424 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\MXTmpFiles\system.tmp_save
+2024-07-14 00:09:37,561 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\MXTmpFiles\system.tmp
+2024-07-14 00:09:37,605 [INFO] CodeEngine:311 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-07-14 00:09:37,838 [INFO] CodeEngine:335 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Inc\stm32f1xx_hal_conf.h
+2024-07-14 00:09:38,091 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Inc\main.h_save
+2024-07-14 00:09:38,324 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Inc\main.h
+2024-07-14 00:09:38,475 [INFO] CodeEngine:255 - oldGeneratedFile, D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Src\main.c_save
+2024-07-14 00:09:38,785 [INFO] CodeEngine:279 - Generated code: D:\projects\GPS_based_location_logger\GPS_based_location_logger\Core\Src\main.c
+2024-07-14 00:09:41,197 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 563mS.
+2024-07-14 00:09:41,210 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-07-14 00:09:42,020 [INFO] ConfigFileManager:1495 - The Die is : DIE410
+2024-07-14 00:09:48,138 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 6929mS.
+2024-07-14 00:09:48,140 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-07-14 00:09:48,142 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.

@@ -1,0 +1,16 @@
+00:00:14 **** Incremental Build of configuration Debug for project GPS_based_location_logger ****
+make -j8 all 
+arm-none-eabi-gcc -o "GPS_based_location_logger.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\projects\GPS_based_location_logger\GPS_based_location_logger\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GPS_based_location_logger.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GPS_based_location_logger.elf
+ 
+arm-none-eabi-size  GPS_based_location_logger.elf 
+arm-none-eabi-objdump -h -S GPS_based_location_logger.elf  > "GPS_based_location_logger.list"
+   text	   data	    bss	    dec	    hex	filename
+   6028	     20	   1724	   7772	   1e5c	GPS_based_location_logger.elf
+arm-none-eabi-objcopy  -O ihex GPS_based_location_logger.elf  "GPS_based_location_logger.hex"
+Finished building: default.size.stdout
+ 
+Finished building: GPS_based_location_logger.list
+Finished building: GPS_based_location_logger.hex
+ 
+ 
